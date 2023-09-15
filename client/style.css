@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #353535;
+}
+.form {
+    padding: 5px;
+    background-color: white;
+    font-weight: 700;
+    color: black;
+    margin-left: 10px;
+}
+.label {
+    color: white;
+    font-size: 18px;
+}
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-weight: 700;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+}
+.title {
+    color: white;
+    margin-bottom: 20px;
+}
+.result {
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.wrapper {
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+}
